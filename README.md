@@ -18,7 +18,7 @@
 
 Первый шаг
 ```
-git clone https://github.com/B9l4eCJlaB/mesto.git
+git clone https://github.com/B9l4eCJlaB/react-mesto-auth.git
 ```
 Второй
 ```
