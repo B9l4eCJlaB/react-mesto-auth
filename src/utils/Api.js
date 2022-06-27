@@ -76,9 +76,11 @@ class Api {
         })
         .then(this._checkResponse)
     }
+
     getAllData() {
         return Promise.all([this.getInitialCards(),this.getUserInfo()])
     }
+
     changeLikeCardStatus(data, isLiked) {
         if (!isLiked) {
           return fetch(`${this._url}/cards/${data}/likes`, {
@@ -95,6 +97,7 @@ class Api {
         }
       }
 }
+
   const api = new Api({
     url: 'https://mesto.nomoreparties.co/v1/cohort-40',
     headers: {
@@ -102,4 +105,5 @@ class Api {
       'Content-Type': 'application/json'
     }
 })
+
 export default api
