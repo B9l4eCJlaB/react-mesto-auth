@@ -13,30 +13,16 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    color: #000;
+    color: #C4C4C4;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
-.popup__input::-webkit-input-placeholder {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-}
-.popup__input::-moz-placeholder {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-}
+.popup__input::-webkit-input-placeholder,
+.popup__input::-moz-placeholder,
 .popup__input::-ms-input-placeholder {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    color: #000;
+    color: #C4C4C4;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
 }

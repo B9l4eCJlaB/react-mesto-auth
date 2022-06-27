@@ -10,8 +10,6 @@ export const register = (email, password) => {
         body: JSON.stringify({ email, password }),
     })
         .then(res => res.json())
-            .then(res => res)
-                .catch(err => console.log(err))
 }
 export const authorize = (email, password) => {
     return fetch(`${BASE_URL}/signin`, {
@@ -29,7 +27,6 @@ export const authorize = (email, password) => {
                     return data;
                 }
             })
-                .catch(err => console.log(err))
 }
 export const checkToken = (token) => {
     return fetch(`${BASE_URL}/users/me`, {
@@ -56,5 +53,4 @@ export const checkToken = (token) => {
                 return error
             }
         })
-            .then(data => data)
 }
