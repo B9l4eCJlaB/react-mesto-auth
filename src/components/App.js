@@ -46,7 +46,6 @@ function App() {
           setCurrentUser(user);
         })
         .catch((err) => {
-          setIsErrorTooltipOpen(true);
           console.log(err);
         });
     }
