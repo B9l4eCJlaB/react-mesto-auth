@@ -46,6 +46,7 @@ function App() {
           setCurrentUser(user);
         })
         .catch((err) => {
+          setIsErrorTooltipOpen(true);
           console.log(err);
         });
     }
@@ -189,10 +190,10 @@ function App() {
           history.push("/");
         } else {
           localStorage.removeItem("jwt");
+          setIsErrorTooltipOpen(true);
         }
       })
       .catch((err) => {
-        setIsErrorTooltipOpen(true);
         console.log(err);
       });
   };
