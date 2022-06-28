@@ -13,6 +13,8 @@
 * **Nested__BEM**
 * **Webpack**
 
+### Ссылка на проект: [Mesto](https://b9l4ecjlab.github.io/react-mesto-auth/ "Вход на сайт Mesto")
+
 
 ### Для запуска проекта:
 
